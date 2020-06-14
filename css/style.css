@@ -1,0 +1,285 @@
+body 
+{
+	    padding: 0;
+    	font-family: 'Montserrat', sans-serif;
+    	background: linear-gradient(rgba(1,1,1,0.9), rgba(1,1,1,0.9)), url("../images/code.jpg");
+	    background-attachment: fixed;
+    	background-repeat: no-repeat; /* Do not repeat the image */
+    	background-size: cover; /* Resize the background image to cover the entire container */
+	    background-color: #000000; /* Used if the image is unavailable */
+    	background-position: center; /* Center the image */
+	    color: #FFFFFF; 
+}
+
+.topnav 
+{
+  overflow: hidden;
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+
+.topnav a 
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#topnav-right a:hover 
+{
+  background-color: #4CAF50;
+  color: black;
+}
+
+.topnav a.active 
+{
+  background-color: #4CAF50;
+  color: white;
+}
+
+#topnav-right 
+{
+  float: right;
+}
+
+.topnav a.name
+{
+	font-size: 20px !important;
+}
+
+.photo
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	ovrflow:hidden;
+	border-radius:50%;
+  border:1px solid white;
+  width:200px; 
+  height:300px;
+}
+
+.name
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	ovrflow:hidden;
+	font-style:bold;
+	margin:auto;
+}
+
+.home
+{
+	margin:auto;
+
+
+
+}
+
+section 
+{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.fab 
+{
+    padding: 16px;
+    font-size: large;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.skill 
+{
+    border-radius: 15px;
+    text-align: center;
+    padding: 8px;
+    margin: 4px;
+}
+
+
+.fa-twitter 
+{
+    background: #00acee;
+    color: white;
+    padding:15px;
+}
+
+.fa-facebook-f 
+{
+    background: #3b5998;
+    color: white;
+    padding:15px;
+}
+
+.fa-instagram
+{
+    background: #00acee;
+    color: white;
+    padding:15px;
+}
+
+.fa-instagram
+{
+    background:#3f729b;
+    color: white;
+    padding:15px;
+}
+
+.fa-envelope
+{
+    background: #D44638;
+    color: white;
+    padding:15px;
+}
+
+.fa-linkedin-in
+{
+    background: #0e76a8;
+    color: white;
+    padding:15px;
+}
+
+.fa-github
+{
+    background: #211F1F;
+    color: white;
+    padding:15px;
+}
+
+.fa-google-play
+{
+    background: #00acee;
+    color: white;
+    padding:15px;
+}
+
+.fa-medium-m
+{
+    background:  #000000;
+    color: white;
+    padding:15px;
+}
+
+.list-group-item 
+{
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+}
+
+.bordered-nav 
+{
+    border: 1px solid #AED6F1;
+    border-radius: 3px;
+}
+
+.nav-item 
+{
+    margin: 4px;
+}
+
+.nav-pills .nav-item 
+{
+    margin: 2px;
+    color: #FFFFFF;
+}
+
+.card-deck .card 
+{
+    margin-top: 16px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: rgb(255, 255, 255);
+}
+
+.card
+{
+    margin-top: 16px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: rgb(255, 255, 255);
+    width:fit-content;
+}
+
+.tab-pane .list-group-item 
+{
+    background-color: transparent;
+    border-color: rgb(146, 146, 146);
+}
+
+.tab-pane .list-group-item .small 
+{
+    color: #adadad;
+}
+
+.bordered-nav 
+{
+    border: 1px solid #AED6F1;
+    border-radius: 3px;
+}
+
+.tab-content 
+{
+    padding: 4px;
+}
+
+.cert
+{
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.typewriter h1 
+{
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+
+  .card-horizontal 
+  {
+    display: flex;
+    flex: 1 1 auto;
+}
