@@ -17,13 +17,6 @@ body
   background-color: #000000;
 }
 
-
-
-
-
-
-
-
 .topnav a 
 {
   float: left;
@@ -73,7 +66,7 @@ body
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	ovrflow:hidden;
+	overflow:hidden;
 	font-style:bold;
 	margin:auto;
 }
@@ -201,7 +194,7 @@ section
 
 .card-deck .card 
 {
-    margin-top: 16px;
+    margin-top: 0px;
     color: #FFFFFF;
     background-color: transparent;
     border-width: 1px;
@@ -211,7 +204,7 @@ section
 
 .card
 {
-    margin-top: 16px;
+    margin-top: 0px;
     color: #FFFFFF;
     background-color: transparent;
     border-width: 1px;
