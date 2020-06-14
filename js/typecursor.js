@@ -54,3 +54,16 @@ window.onload = function() {
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
     document.body.appendChild(css);
 };
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() 
+{
+  var x = document.getElementById("topnav-right");
+  if (x.style.display === "block") 
+  {
+    x.style.display = "none";
+  } else 
+  {
+    x.style.display = "block";
+  }
+}
