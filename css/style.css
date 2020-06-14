@@ -12,6 +12,23 @@ body
       margin:0;
 }
 
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #topnav-right 
+{
+  display: none;
+}
+
+
+/* Style the hamburger menu */
+.topnav a.icon 
+{
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .topnav 
 {
   overflow: hidden;
@@ -201,7 +218,6 @@ section
     border-width: 1px;
     border-radius: 4px;
     border-color: rgb(255, 255, 255);
-	width:100%;
 }
 
 .card
