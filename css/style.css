@@ -33,6 +33,7 @@ body
 {
   overflow: hidden;
   background-color: #000000;
+  background-color: rgba(0,0,0,0.9);
 }
 
 .topnav a 
@@ -115,6 +116,13 @@ section
     margin: 8px;
 }
 
+.fab:hover 
+{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+
 .skill 
 {
     border-radius: 15px;
@@ -123,7 +131,6 @@ section
     margin: 4px;
 }
 
-
 .fa-twitter 
 {
     background: #00acee;
@@ -131,7 +138,7 @@ section
     padding:15px;
 }
 
-.fa-facebook-f 
+.fa-facebook
 {
     background: #3b5998;
     color: white;
@@ -140,7 +147,7 @@ section
 
 .fa-instagram
 {
-    background: #00acee;
+    background: #125688;
     color: white;
     padding:15px;
 }
@@ -152,7 +159,7 @@ section
     padding:15px;
 }
 
-.fa-envelope
+.fa-google
 {
     background: #D44638;
     color: white;
@@ -212,7 +219,7 @@ section
 
 .card-deck .card 
 {
-    margin-top: 0px;
+    margin-top: 16px;
     color: #FFFFFF;
     background-color: transparent;
     border-width: 1px;
