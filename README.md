@@ -1,5 +1,5 @@
 # My Portfolio
-This is My Portfolio hosted by GitHub pages. It's completely developed in pure HTML, CSS, JS, Bootstrap. Simple to use! Check it on GitHub pages : https://kulkarniatharva.github.io
+This is My Portfolio hosted by GitHub pages. It's completely developed in pure HTML, CSS, JS, Bootstrap. Simple to use! Check it on GitHub pages [here]( https://kulkarniatharva.github.io)
 
 
 ---
